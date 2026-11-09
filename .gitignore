@@ -1,0 +1,10 @@
+.venv/
+.DS_Store
+build/
+.ipynb_checkpoints/
+__pycache__/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
