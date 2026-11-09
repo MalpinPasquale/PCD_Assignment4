@@ -29,8 +29,8 @@ cp build/PCD_Assignment4.pdf PCD_Assignment4.pdf
 
 ### Submission links
 
-- Repository: https://github.com/MalpinPasquale/digital-image-processing-report
-- **Current PDF:** https://github.com/MalpinPasquale/digital-image-processing-report/blob/main/PCD_Assignment4.pdf
+- Repository: https://github.com/MalpinPasquale/PCD_Assignment4
+- **Current PDF:** https://github.com/MalpinPasquale/PCD_Assignment4/blob/main/PCD_Assignment4.pdf
 
 ---
 
@@ -99,9 +99,9 @@ Compilation passed with all citations and cross-references resolved. The remaini
 
 ## GitHub repository
 
-- Repository: https://github.com/MalpinPasquale/digital-image-processing-report
-- Report PDF: https://github.com/MalpinPasquale/digital-image-processing-report/blob/main/main.pdf
-- Open notebook in Colab: https://colab.research.google.com/github/MalpinPasquale/digital-image-processing-report/blob/main/digital_image_processing_cases.ipynb
+- Repository: https://github.com/MalpinPasquale/PCD_Assignment4
+- Previous report PDF: https://github.com/MalpinPasquale/PCD_Assignment4/blob/main/main.pdf
+- Optional notebook in Colab: https://colab.research.google.com/github/MalpinPasquale/PCD_Assignment4/blob/main/digital_image_processing_cases.ipynb
 
 For future updates, review `git status` and `git diff`, commit the intended changes, and push to the existing `origin` remote. Do not repeat repository creation.
 
