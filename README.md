@@ -18,7 +18,10 @@ The current submission is an **English-language conceptual report in IEEE two-co
 
 Two original sample images illustrate typical input conditions; the report does not show or claim experimental outputs. Image credits are recorded in `images/SOURCES.md`.
 
-**Before submission:** replace `Student Name` in `PCD_Assignment4.tex` with your own name and recompile. Follow your course's rules on assistance and attribution.
+**Author:** Malvino Rosana Pasquale  
+**Student number:** 25/569865/PA/24015
+
+Follow your course's rules on assistance and attribution.
 
 ### Compile the current report
 
