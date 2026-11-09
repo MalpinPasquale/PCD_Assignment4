@@ -1,10 +1,46 @@
-# Digital Image Processing: Three Practical Cases
+# PCD Assignment 4: Application Summary and Feature Selection
 
-An introductory, English-language course project with an **IEEE two-column, three-page report** and a fully executed Google Colab-compatible notebook.
+The current submission is an **English-language conceptual report in IEEE two-column format**, with no coding requirement and no experimental performance claims. It summarizes five application cases and explains suitable image features, possible techniques, and limitations.
 
-## Main files
+## Current submission
 
-- [`main.pdf`](main.pdf): compiled report for submission.
+- **[PCD_Assignment4.pdf](PCD_Assignment4.pdf)** — final report to submit.
+- [PCD_Assignment4.tex](PCD_Assignment4.tex) — editable LaTeX source.
+- [references.bib](references.bib) — bibliography.
+
+| Case | Suitable features |
+|---|---|
+| Object counting | Intensity, area, circularity, centroid |
+| Scanned-document enhancement | Local intensity, contrast, stroke width |
+| Visible fruit ripeness | Hue, saturation, color-region ratios, spots |
+| Surface-defect inspection | Gradient, elongation, variance, GLCM texture |
+| Impulse-noise removal | Extreme intensity, deviation from local median |
+
+Two original sample images illustrate typical input conditions; the report does not show or claim experimental outputs. Image credits are recorded in `images/SOURCES.md`.
+
+**Before submission:** replace `Student Name` in `PCD_Assignment4.tex` with your own name and recompile. Follow your course's rules on assistance and attribution.
+
+### Compile the current report
+
+```sh
+latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=build PCD_Assignment4.tex
+cp build/PCD_Assignment4.pdf PCD_Assignment4.pdf
+```
+
+### Submission links
+
+- Repository: https://github.com/MalpinPasquale/digital-image-processing-report
+- **Current PDF:** https://github.com/MalpinPasquale/digital-image-processing-report/blob/main/PCD_Assignment4.pdf
+
+---
+
+## Previous version — optional material, not the current assignment
+
+The files and instructions below belong to the earlier coding-based version. They are retained for reference only. **Submit `PCD_Assignment4.pdf`, not `main.pdf`; no notebook needs to be run or submitted for the revised assignment.**
+
+### Previous-version files
+
+- [`main.pdf`](main.pdf): previous experimental report, superseded by `PCD_Assignment4.pdf`.
 - [`digital_image_processing_cases.ipynb`](digital_image_processing_cases.ipynb): explanations, simple Python code, figures, and actual execution outputs.
 - [`main.tex`](main.tex) and [`references.bib`](references.bib): editable report source and references.
 - `images/`: original sample images and attribution information.
